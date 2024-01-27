@@ -1,5 +1,4 @@
-### Hi there 👋
-
+Hello! This is a test program and I don't mind if anyone copies it and shares it. It was created for testing, and you can use it as you wish (this text has been translated)
 <!--
 **0leksey2/0leksey2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
