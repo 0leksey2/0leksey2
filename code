@@ -1,0 +1,53 @@
+from turtle import *
+
+def zemlya():
+    speed(25)
+    pensize(0)
+    penup()
+    goto(-250, 0)
+    color("green", "yellowgreen")
+    begin_fill()
+    for i in range(2):
+        forward(500)
+        right(90)
+        forward(260)
+        right(90)
+    end_fill()
+def nebo():
+    color("lightblue")
+    left(90)
+    begin_fill()
+    for i in range(2):
+        forward(260)
+        right(90)
+        forward(500)
+        right(90)
+    end_fill()
+def san ():
+    color("yellow")
+    goto(250, 210)
+    begin_fill()
+    for i in range(36):
+        forward(55)
+        right(145)
+        forward(10)
+        right(145)
+        forward(5)
+    end_fill()
+def doma ():
+    goto(-150, -20)
+    color("grey")
+    begin_fill()
+    for i in range(2):
+        for i in range(4):
+            forward(90)
+            left(90)
+        goto(-50, -20)
+    end_fill()
+
+zemlya()
+nebo()
+san()
+doma()
+exitonclick()
+hideturtle()
